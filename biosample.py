@@ -6,7 +6,8 @@
 # BioSample number and fetches features from all the sequences associated to
 # that BioSample number.
 # Notes: this program uses the history feature and the WebEnv session cookie to
-# download large data in batches.
+# download large data in batches. Don't forget to type your email address in
+# line 25.
 # Usage: python biosamble.py accession_number
 
 # Importing Biopython modules
@@ -21,7 +22,7 @@ if len(sys.argv) != 2:
     sys.exit('usage: python biosamble.py accession_number')
 
 # Provide email address to GeneBank
-Entrez.email = "ivan.munoz.guterrez@gmail.com"
+Entrez.email = "type_your_email_address@here.com"
 
 ###########################################################################
 #      Getting the BioSample number of the requested accession number     #
