@@ -22,7 +22,7 @@ if len(sys.argv) != 2:
     sys.exit('usage: python biosamble.py accession_number')
 
 # Provide email address to GeneBank
-Entrez.email = "ivan.munoz.guterrez@gmail.com"
+Entrez.email = "type_your_email@here.com"
 
 ###########################################################################
 #      Getting the BioSample number of the requested accession number     #
