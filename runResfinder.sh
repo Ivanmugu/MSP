@@ -1,6 +1,10 @@
 #!/bin/bash
 # Run resfinder with multple fasta files contained in a folder
 #
+#################################################################
+# NOTE: be careful with the different paths provided in the code#
+#################################################################
+#
 # Accessing fasta files in input folder
 for fastaFile in $(ls ~/Desktop/cge_input)
 do
